@@ -1,3 +1,3 @@
 // string, number, boolean, null, undefined
-let myName = '';
+let myName: string | null = null;
 myName = 'test';
