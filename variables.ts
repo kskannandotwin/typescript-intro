@@ -19,3 +19,15 @@ const account: IAccount = {
 };
 
 let accounts: IAccount[];
+
+class InvestmentAccount implements IAccount {
+    constructor(
+        public name, public balance
+    ) {
+
+    }
+
+    private widthdraw() {
+
+    }
+}
