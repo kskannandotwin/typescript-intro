@@ -5,14 +5,17 @@ myName = 'test';
 // arrays
 let items = [5, 'luis'];
 
-// objects
-const account: {
+interface IAccount {
     name: string,
     balance: number,
-    status?: string
-} = {
+    status?: string,
+    deposit?: () => void
+};
+
+// objects
+const account: IAccount = {
     name: 'luis',
     balance: 10
 };
 
-let accounts: {}[];
+let accounts: IAccount[];
